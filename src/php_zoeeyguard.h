@@ -40,7 +40,7 @@ PHP_RINIT_FUNCTION(zoeeyguard);
 PHP_RSHUTDOWN_FUNCTION(zoeeyguard);
 PHP_MINFO_FUNCTION(zoeeyguard);
 
-PHP_FUNCTION(zoeey_run);
+PHP_FUNCTION(___);
 PHP_FUNCTION(zoeey_encode);
 
 #ifdef PHP_ZOEEYGUARD_EDITION

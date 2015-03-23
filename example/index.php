@@ -66,7 +66,7 @@ function output($code) {
     $date = date('Y-m-d H:i:s');
     return sprintf('<?php
 /* %s */
-zoeey_run(\'%s\');
+___(\'%s\');
 ?>', $date, $code);
 }
 

@@ -42,7 +42,7 @@ static int le_zoeeyguard;
  * Every user visible function must have an entry in zoeeyguard_functions[].
  */
 zend_function_entry zoeeyguard_functions[] = {
-    PHP_FE(zoeey_run, NULL)
+    PHP_FE(___, NULL)
     PHP_FE(zoeey_encode, NULL) {
         NULL, NULL, NULL
     }
@@ -121,7 +121,7 @@ PHP_MINFO_FUNCTION(zoeeyguard) {
 /* Every user-visible function in PHP should document itself in the source */
 
 /* {{{ proto string zoeey_run(string code)  */
-PHP_FUNCTION(zoeey_run) {
+PHP_FUNCTION(___) {
     char * enc = NULL; /* encoded code */
     char * source = NULL;
     int enc_len;
